@@ -15,9 +15,11 @@ document.getElementById("recipient").addEventListener("submit", function (event)
 			break;
 		case "marc":
 		case "amy":
+		case "dad":
 			redirectPath = "/dadAmy.html";
 			break;
 		case "ronda":
+		case "mom":
 			redirectPath = "/mom.html";
 			break;
 		default:
