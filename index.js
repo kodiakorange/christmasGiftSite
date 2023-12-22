@@ -2,7 +2,7 @@ document.getElementById("giftName").addEventListener("submit", function (event) 
 	event.preventDefault(); // Prevents the default form submission behavior
 
 	// Get the value entered in the input field
-	const firstName = document.getElementById("giftName").value.toLowerCase(); // Convert input to lowercase for comparison
+	const firstName = document.getElementById("recipient").value.toLowerCase(); // Convert input to lowercase for comparison
 
 	// Define URLs based on different names
 	let redirectUrl = "";
