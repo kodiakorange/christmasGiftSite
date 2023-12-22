@@ -11,19 +11,19 @@ document.getElementById("recipient").addEventListener("submit", function (event)
 	switch (firstName) {
 		case "austin":
 		case "alex":
-			redirectPath = "/austinAlex.html";
+			redirectPath = "/christmasGiftSite/austinAlex.html";
 			break;
 		case "marc":
 		case "amy":
 		case "dad":
-			redirectPath = "/dadAmy.html";
+			redirectPath = "/christmasGiftSite/dadAmy.html";
 			break;
 		case "ronda":
 		case "mom":
-			redirectPath = "/mom.html";
+			redirectPath = "/christmasGiftSite/mom.html";
 			break;
 		default:
-			redirectPath = "/bobby.html";
+			redirectPath = "/christmasGiftSite/bobby.html";
 			break;
 	}
 
