@@ -9,14 +9,20 @@ document.getElementById("giftName").addEventListener("submit", function (event) 
 
 	// Redirect logic based on different names
 	switch (firstName) {
-		case "john":
-			redirectUrl = "https://example.com/john";
+		case "austin":
+		case "alex":
+			redirectUrl = "https://kodiakorange.github.io/christmasGiftSite/austinAlex.html";
 			break;
-		case "emma":
-			redirectUrl = "https://example.com/emma";
+		case "marc":
+		case "amy":
+			redirectUrl = "https://kodiakorange.github.io/christmasGiftSite/dadAmy.html";
 			break;
+		case "ronda":
+			redirectUrl = "https://kodiakorange.github.io/christmasGiftSite/mom.html";
+			break;
+
 		default:
-			redirectUrl = "https://example.com/default";
+			redirectUrl = "https://kodiakorange.github.io/christmasGiftSite/bobby.html";
 			break;
 	}
 
