@@ -10,8 +10,11 @@ document.getElementById("recipient").addEventListener("submit", function (event)
 	// Redirect logic based on different names
 	switch (firstName) {
 		case "austin":
+			redirectPath = "././austin.html";
+			break;
+
 		case "alex":
-			redirectPath = "././austinAlex.html";
+			redirectPath = "././alex.html";
 			break;
 		case "marc":
 		case "amy":
