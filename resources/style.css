@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
