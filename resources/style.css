@@ -24,3 +24,9 @@ html {
     background-color: hsla(148, 53%, 61%, .5);
     color: maroon;
 }
+
+img {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
