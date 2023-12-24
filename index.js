@@ -25,6 +25,17 @@ document.getElementById("recipient").addEventListener("submit", function (event)
 		case "mom":
 			redirectPath = "././mom.html";
 			break;
+		case "trent":
+		case "trenton":
+		case "tbone":
+		case "taesar":
+			redirectPath = "././trenton.html";
+			break;
+		case "max":
+		case "sejla":
+			redirectPath = "././maxSejla.html";
+			break;
+
 		default:
 			redirectPath = "././bobby.html";
 			break;
