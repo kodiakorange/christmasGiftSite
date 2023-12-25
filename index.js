@@ -38,6 +38,7 @@ document.getElementById("recipient").addEventListener("submit", function (event)
 		case "bev":
 		case "beverly":
 			redirectPath = "././grandma.html";
+			break;
 		default:
 			redirectPath = "././bobby.html";
 			break;
