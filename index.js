@@ -1,7 +1,6 @@
 document.getElementById("recipient").addEventListener("submit", function (event) {
-	event.preventDefault(); // Prevents the default form submission behavior
+	event.preventDefault();
 
-	// Get the value entered in the input field
 	const firstName = document.getElementById("giftName").value.toLowerCase(); // Corrected ID to get the input value
 
 	// Define paths to local HTML files based on different names
@@ -35,7 +34,10 @@ document.getElementById("recipient").addEventListener("submit", function (event)
 		case "sejla":
 			redirectPath = "././maxSejla.html";
 			break;
-
+		case "grandma":
+		case "bev":
+		case "beverly":
+			redirectPath = "././grandma.html";
 		default:
 			redirectPath = "././bobby.html";
 			break;
