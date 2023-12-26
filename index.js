@@ -12,6 +12,7 @@ document.getElementById("recipient").addEventListener("submit", function (event)
 		case "joseph":
 		case "big dicked mentor":
 			redirectPath = "././joe.html";
+			break;
 
 		case "austin":
 			redirectPath = "././austin.html";
